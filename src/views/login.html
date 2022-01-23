@@ -1,0 +1,29 @@
+<div class="content flex_col login">
+<div class="content_login">
+    <div class="login_header">
+        <div class="head">
+            <span class="translate" data-lang="user_login"><h2>Inloggen</h2></span>
+        </div>
+        <div class="login_footer">
+            <span class="translate" data-lang="login_corendon">Log in met uw Mijn Corendon account</span>
+        </div>
+    </div>
+    <form method="post" id="user_form" class="user_login_form">
+        <div class="login_data">
+        <div class="error"></div>
+            <div class="login_head"><b><span class="translate" data-lang="username">Gebruikersnaam</span></b></div>
+        <input id="un" type="text" data-lang="username" placeholder="gebruikersnaam" name="username">
+        <div class="login_head"><b><span class="translate" data-lang="password">Wachtwoord</span></b></div>
+        <input id ="ww" type="password" data-lang="password" placeholder="wachtwoord" name="password">
+        </div>
+        <div class="send">
+            <input class="login_send" type="submit" data-lang="send" value="login">
+        </div>
+        <div class="login_links">
+            <a href="" data-controller="password-recovery"><span class="translate" data-lang="forgot_password">wachtwoord vergeten?</span></a><br>
+            <span class="translate" data-lang="no_account">Heeft u nog geen account?</span> <a class="register_button" href="" data-controller="register">
+            <span class="translate" data-lang="start_here">Start hier.</span></a>
+        </div>
+    </form>
+</div>
+</div>

@@ -1,0 +1,125 @@
+@media (max-width: 576px) {
+    .site_reviews {
+        overflow-x: scroll;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .travel_reviews {
+        overflow-x: scroll;
+        width: auto;
+        white-space: nowrap;
+    }
+}
+
+.frontpage_introduction {
+    height: 400px;
+    padding: 15px;
+}
+
+.frontpage_registration_link {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.frontpage_registration {
+    background-color: var(--red);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.frontpage_site_review {
+    padding: 15px;
+    color: var(--red);
+}
+
+.site_reviews {
+    display: flex;
+    color: black;
+
+}
+
+.site_review {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.review_head {
+    height: 15px;
+    font-weight: bold;
+}
+
+.review_body {
+    flex: 1;
+    overflow: hidden;
+}
+
+.review_footer {
+    height: 15px;
+}
+
+.frontpage_travel_review {
+    padding: 15px;
+    color: var(--red);
+}
+
+.travel_reviews {
+    display: flex;
+    color: black;
+}
+
+.travel_review {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.login_form {
+    position: relative;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.login_form input {
+    width: 80%;
+}
+
+.login_form p, .login_form a {
+    font-size: 12px;
+}
+
+.login_form button, .register_buttons button, .password_recovery button, .frontpage_review_header button {
+    background-color: #26a514;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Jonathan - login layout */
+.login_modal .content {
+    border-radius: 12px;
+}
+

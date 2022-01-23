@@ -1,0 +1,53 @@
+<div class="content flex_col registration">
+    <div class="register">
+        <div class="error"></div>
+        <form class="register_form" method="post">
+            <h2><span data-lang="Register">Maak hier uw account:</span></h2>
+
+            <div class="user_registration">
+                <label for="firstnameInput"><p><span data-lang="Voornaam">Voornaam</span></p></label>
+            <input type="text" data-lang="PHVoornaam" placeholder="Voer hier u voornaam in." name="firstnameInput"
+                   autocomplete="off" required id="firstnameInput">
+
+                <label for="lastnameInput"><p><span data-lang=Achternaam">Achternaam</span></p></label>
+            <input type="text" data-lang="PHAchternaam" placeholder="Voer hier u achternaam in." name="lastnameInput"
+                   autocomplete="off" required id="lastnameInput">
+
+                <label for="UsernameInput"><p><span data-lang="Gebruikersnaam">Gebruikersnaam</span></p></label>
+            <input type="text" data-lang="PHGebruikersnaam" placeholder="Voer hier u gebruikersnaam in." name="usernameInput"
+                   autocomplete="off" required id="usernameInput">
+
+                <label for="emailaddressInput"><p><span data-lang="Emailadres">Emailadres</span></p></label>
+            <input type="email" data-lang="PHEmailadres" placeholder="Voer hier u emailadres in." name="emailaddressInput"
+                   autocomplete="off" required id="emailaddressInput">
+
+                <label for="passwordInput"><p><span data-lang="Wachtwoord">Wachtwoord</span></p></label>
+            <input type="password" data-lang="PHWachtwoord" placeholder="Voer hier u wachtwoord in." name="passwordInput"
+                   autocomplete="off" required id="passwordInput">
+
+                <label for="passwordRepeat"><p><span data-lang="Bevestig_Wachtwoord">Bevestig Wachtwoord</span></p></label>
+            <input type="password" data-lang="PHBevestig_Wachtwoord" placeholder="Herhaaal Wachtwoord." name="passwordRepeat"
+                   autocomplete="off" required id="passwordRepeat">
+
+                <label for="birthdateInput"><p><span data-lang="Geboortedatum">Geboortedatum</span></p></label>
+            <input type="date" placeholder="00-00-0000" name="birthdateInput"
+                   autocomplete="off" required id="birthdateInput">
+
+                <label for="genderInput"><p><span data-lang="Geslacht">Geslacht</span></p></label>
+                <select name="genderInput" id="genderInput" title="Selecteer uw geslacht">
+                    <option value="" disabled selected hidden data-lang="Geslacht1">Kies een geslacht</option>
+                    <option value="M" data-lang="Geslacht2">Male</option>
+                    <option value="F" data-lang="Geslacht3">Female</option>
+                </select>
+            </div>
+            <div class="register_buttons">
+                <div class="cancel_button">
+                    <input type="submit" data-lang="Annuleren" value="Annuleren">
+                </div>
+                <div class="create_account">
+                    <input type="submit" data-lang="Account_Maken" value="Account maken">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.user_favorite_person {
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    height: 120px;
+}
+
+user_favorite {
+    width: 80%;
+}
+
+.profile_img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.profile_name {
+    display: inline-block;
+}
+
+.profile_header_favorite {
+    padding-left: 5px;
+}
+
+.user_favorite {
+    width: 100%;
+}
+
+
+
+.user_profiles {
+    width: 80%;
+}
+

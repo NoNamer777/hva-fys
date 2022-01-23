@@ -1,0 +1,443 @@
+/* Oscar - Extra Small Screen */
+#passwordStrengthScale {
+    width: 80%;
+}
+
+#passwordWarning {
+    color: red;
+}
+
+.settingsItem {
+    margin: 15px 10px 0 0;
+}
+
+.flex-container {
+    display: flex;
+}
+p {
+    margin: 4px 0;
+}
+
+.prefix {
+    margin: 0 10px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+}
+
+.uSAvailableHobbies {
+    margin-right: 62px;
+}
+
+div.settingsSpacer {
+    width: 80%;
+}
+
+div.settingsPreviewProfile {
+    border: black solid 1px;
+    width: 90%;
+}
+
+.settingsPreviewSpacer {
+    margin: 24px;
+}
+
+.settingsPreviewSpacer-alt {
+    margin-right: 80px;
+}
+
+#countryInput {
+    width: auto;
+}
+
+.flex-containerProfilePreview {
+    display: flex;
+    flex-direction: column;
+}
+
+p#savedChanges {
+    margin-left: 8px;
+    color: green;
+    display: none;
+}
+#displayChosenHobbiesBorder {
+    height: 125px;
+    width: 250px;
+    border: black solid 1px;
+}
+#saveSettings {
+    padding: 4px;
+    color: white;
+    background-color: #006000;
+    border-color: #004300;
+}
+
+#deleteAccount {
+    padding: 4px;
+    color: white;
+    background-color: #9d0000;
+    border-color: #570000;
+}
+
+#deleteAccountMessage {
+    margin: 10% auto;
+    font-size: large;
+}
+
+#confirmMessage {
+    margin: 10% auto;
+}
+
+#message {
+    margin: 10% auto;
+}
+
+#confirmDelete {
+    margin: auto;
+}
+
+#yes {
+    padding: 4px;
+    color: white;
+    background-color: #9d0000;
+    border-color: #570000;
+}
+
+#cancelDelete {
+    margin: auto;
+}
+
+#no {
+    padding: 4px;
+    color: white;
+    background-color: #006000;
+    border-color: #004300;
+}
+
+p.userSettingsHobbyWarning {
+    color: red;
+}
+
+.knownDOB {
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+#knownCountry {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.vacationDesOutput {
+    margin-left: 2px;
+    margin-top: 2px;
+}
+/* End Oscar - Extra Small Screen */
+
+@media (min-width: 576px) {
+    /* Oscar - Small Screen */
+    #passwordStrengthScale {
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .settingsItem {
+        margin: 15px 10px 0 0;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .settingsText {
+        margin: 4px 0;
+    }
+
+    textarea.uS {
+        width: 90%;
+        height: 150px;
+    }
+
+    div.settingsSpacer {
+        width: 80%;
+    }
+
+    div.settingsPreviewProfile {
+        border: black solid 1px;
+        width: 90%;
+    }
+
+    .settingsPreviewSpacer {
+        margin: 24px;
+    }
+
+    .flex-containerProfilePreview {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p#savedChanges {
+        margin-left: 8px;
+        color: green;
+        display: none;
+    }
+    #displayChosenHobbiesBorder {
+        border: black solid 1px;
+    }
+    #save {
+        padding: 4px;
+        color: white;
+        background-color: #006000;
+        border-color: #004300;
+    }
+
+    #delete {
+        padding: 4px;
+        color: white;
+        background-color: #9d0000;
+        border-color: #570000;
+        margin-right: 60%
+    }
+
+    #deleteMessage {
+        margin: 10% auto;
+        font-size: large;
+    }
+
+    #confirmMessage {
+        margin: 10% auto;
+    }
+
+    #confirmDelete {
+        margin: auto;
+    }
+
+    #yes {
+        padding: 4px;
+        color: white;
+        background-color: #9d0000;
+        border-color: #570000;
+    }
+
+    #cancelDelete {
+        margin: auto;
+    }
+
+    #no {
+        padding: 4px;
+        color: white;
+        background-color: #006000;
+        border-color: #004300;
+    }
+
+    p.userSettingsHobbyWarning {
+        color: red;
+    }
+    /* End Oscar - Small Screen */
+}
+
+@media (min-width: 768px) {
+    /* Oscar - Medium Screen */
+    #passwordStrengthScale {
+        width: 500px;
+    }
+
+    .settingsItem {
+        margin: 15px 10px 0 0;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+    .settingsText {
+        margin: 4px 0;
+    }
+
+    textarea {
+        width: 90%;
+        height: 150px;
+    }
+
+    div.settingsSpacer {
+        width: 80%;
+    }
+
+    div.settingsPreviewProfile {
+        border: black solid 1px;
+        width: 90%;
+    }
+
+    .settingsPreviewSpacer {
+        margin: 24px;
+    }
+
+    .flex-containerProfilePreview {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p#savedChanges {
+        margin-left: 8px;
+        color: green;
+        display: none;
+    }
+    #displayChosenHobbiesBorder {
+        border: black solid 1px;
+    }
+    #save {
+        padding: 4px;
+        color: white;
+        background-color: #006000;
+        border-color: #004300;
+    }
+
+    #delete {
+        padding: 4px;
+        color: white;
+        background-color: #9d0000;
+        border-color: #570000;
+        margin-right: 60%
+    }
+
+    #deleteMessage {
+        margin: 10% auto;
+        font-size: large;
+    }
+
+    #confirmMessage {
+        margin: 10% auto;
+    }
+
+    #confirmDelete {
+        margin: auto;
+    }
+
+    #yes {
+        padding: 4px;
+        color: white;
+        background-color: #9d0000;
+        border-color: #570000;
+    }
+
+    #cancelDelete {
+        margin: auto;
+    }
+
+    #no {
+        padding: 4px;
+        color: white;
+        background-color: #006000;
+        border-color: #004300;
+    }
+
+    p.userSettingsHobbyWarning {
+        color: red;
+    }
+    /* End Oscar - Medium Screen */
+}
+
+@media (min-width: 992px) {
+    /* Oscar - Large Screen */
+    #passwordStrengthScale {
+        width: 50%;
+    }
+
+    .settingsItem {
+        margin: 15px 10px 0 0;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+    .settingsText {
+        margin: 4px 0;
+    }
+
+    textarea {
+        width: 90%;
+        height: 150px;
+    }
+
+    div.settingsSpacer {
+        width: 80%;
+    }
+
+    div.settingsPreviewProfile {
+        border: black solid 1px;
+        width: 90%;
+    }
+
+    .settingsPreviewSpacer {
+        margin: 24px;
+    }
+
+    .flex-containerProfilePreview {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p#savedChanges {
+        margin-left: 8px;
+        color: green;
+        display: none;
+    }
+    #displayChosenHobbiesBorder {
+        border: black solid 1px;
+    }
+    #save {
+        padding: 4px;
+        color: white;
+        background-color: #006000;
+        border-color: #004300;
+    }
+
+    #delete {
+        padding: 4px;
+        color: white;
+        background-color: #9d0000;
+        border-color: #570000;
+        margin-right: 60%
+    }
+
+    #deleteMessage {
+        margin: auto;
+        font-size: large;
+    }
+
+    #confirmMessage {
+        margin: 10% auto;
+    }
+
+    #confirmDelete {
+        margin: auto;
+    }
+
+    #yes {
+        padding: 4px;
+        color: white;
+        background-color: #9d0000;
+        border-color: #570000;
+    }
+
+    #cancelDelete {
+        margin: auto;
+    }
+
+    #no {
+        padding: 4px;
+        color: white;
+        background-color: #006000;
+        border-color: #004300;
+    }
+
+    p.userSettingsHobbyWarning {
+        color: red;
+    }
+    /* End Oscar - Large Screen */
+}
+
+@media (min-width: 1200px) {
+
+}

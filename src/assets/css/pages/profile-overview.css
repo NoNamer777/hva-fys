@@ -1,0 +1,577 @@
+/* Jay - Extra Small Screen */
+@media (min-width: 320px) {
+    .button {
+        margin-left: 20%;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        border: none;
+        width: 90px;
+        height: 40px;
+    }
+
+    .button_select {
+        margin-top: 10px;
+        margin-left: 33%;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 19px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+
+    .dropdown_aantal label {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .profile_img {
+        min-width: 100px;
+        min-height: 100px;
+        max-width: 100px;
+        max-height: 100px;
+        background-size: contain;
+    }
+
+    .profile_content {
+        min-width: 100px;
+        overflow: hidden;
+    }
+
+    .profile_body {
+        max-height: 230px;
+        overflow: hidden;
+        max-width: 85%;
+    }
+
+    .profile_footer {
+        vertical-align: bottom;
+    }
+
+    .profile_tile {
+        border-bottom: 1px solid black;
+        display: flex;
+        min-width: 600px;
+        max-width: 600px;
+    }
+
+    .profile_footer {
+        vertical-align: bottom;
+    }
+
+    .filterContent_btn {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 33%;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 19px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 576px) {
+    .button_select {
+        margin-top: 10px;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 19px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .profileOverview {
+        margin-top: 20px;
+        flex-direction: unset;
+
+    }
+
+    .filter_container {
+        width: 25%;
+        font-size: 8px;
+        background-color: white;
+        /*position: absolute;*/
+        left: 0;
+        /*display: none;*/
+        border: 1px solid black;
+        display: inline-block;
+    }
+
+    .filter_content {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .hobby {
+        margin: 15px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+
+    .age {
+        margin: 15px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+
+    .destination {
+        margin: 15px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+    }
+
+    .gender {
+        margin: 15px;
+    }
+
+    .buttons {
+        justify-content: center;
+        display: flex;
+    }
+
+    .fcBtn {
+        width: 55px;
+    }
+
+    .filterContent_btn {
+        background-color: deepskyblue;
+        color: white;
+        padding: 15px;
+        font-size: 10px;
+        border: none;
+        width: 55px;
+        height: 20px;
+    }
+
+    .dropdown_aantal {
+        padding: 15px;
+        display: flex;
+        font-size: 8px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 55px;
+    }
+
+    .profileContent {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .filter_head {
+        width: 100%;
+        color: black;
+        text-align: right;
+    }
+
+    .profiles {
+        width: 100%;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 55px;
+    }
+
+    .profile_tile {
+        border: 1px solid black;
+        margin-bottom: 1px;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .profile_name {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .profile_img {
+        height: 100%;
+        width: 55px;
+    }
+
+    .profile_content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .profile_header {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .profile_body {
+        font-size: 13px;
+        flex: 1;
+        height: auto;
+        width: 100%;
+    }
+
+    .profile_footer {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .button {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .button_select {
+        margin-top: 10px;
+        justify-content: space-evenly;
+        background-color: deepskyblue;
+        color: white;
+        padding: 15px;
+        font-size: 10px;
+        border: none;
+        width: 55px;
+        height: 20px;
+    }
+
+    #map {
+        height: 700px;
+        width: 100%
+    }
+
+    .user_profiles_overview {
+        display: inline-block;
+        margin-left: 30px;
+    }
+}
+/* End Jay - Extra Small Screen */
+/* Jay - Medium Screen */
+@media (min-width: 768px) {
+
+    .filter_container {
+        width: 25%;
+        font-size: 17px;
+        border: 1px solid black;
+    }
+
+    .filter_head {
+        display: none
+    }
+
+    .dropdown_aantal {
+        display: inline-block;
+        padding: 15px;
+        max-width: 200px;
+        font-size: 12px;
+    }
+
+    .filter_container {
+        justify-content: space-evenly;
+        display: inline;
+        width: 20%;
+        background-color: transparent;
+    }
+
+    .filterContent_btn {
+        display: none;
+    }
+
+    .filterTitle {
+        font-size: 20px;
+    }
+
+    .profiles {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .profile_img {
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 150px;
+    }
+
+    .profile_body {
+        -webkit-line-clamp: 4;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        font-size: 19px;
+        flex: 1;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        max-height: 12ch;
+    }
+
+    .profile_name {
+        font-size: 17px;
+    }
+
+    .favorite_btn {
+        font-size: 14px;
+    }
+
+    .profile_footer {
+        font-size: 17px;
+    }
+
+    .button {
+        margin-top: 10px;
+        margin-left: 100px;
+        justify-content: space-evenly;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        border: none;
+        width: 75px;
+        height: 40px;
+    }
+
+    .button_select {
+        margin-top: 10px;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        border: none;
+        width: 75px;
+        height: 40px;
+    }
+
+    .user_profiles_overview {
+        width: 80%;
+       display: inline-block;
+    }
+
+    .profileOverview {
+        display: flex;
+    }
+}
+/* Eind Jay - Medium Screen */
+/* Jay - Large Screen */
+@media (min-width: 992px) {
+    .filter_container {
+        width: 25%;
+        font-size: 20px;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .filterTitle {
+        font-size: 23px;
+    }
+
+    .profile_img {
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 150px;
+    }
+
+    .dropdown_aantal {
+        display: inline-block;
+        padding: 15px;
+        max-width: 200px;
+        font-size: 15px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 150px;
+    }
+
+    .profile_body {
+        font-size: 18px;
+        flex: 1;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        max-height: 15ch;
+    }
+
+    .profile_name {
+        font-size: 22px;
+    }
+
+    .favorite_btn {
+        font-size: 17px;
+    }
+
+    .profile_footer {
+        font-size: 20px;
+    }
+
+    .button {
+        margin-left: 100px;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        border: none;
+        width: 90px;
+        height: 40px;
+    }
+
+    .button_select {
+        margin-top: 10px;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        border: none;
+        width: 90px;
+        height: 40px;
+    }
+
+}
+/* Eind Jay - Large Screen */
+
+/* Jay - Extra Large Screen */
+@media (min-width: 1200px) {
+    .filter_container {
+        width: 25%;
+        margin-left: 5px;
+        justify-content: space-evenly;
+    }
+
+    .filterContent_btn {
+        background-color: deepskyblue;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+        border: none;
+        width: 100px;
+        height: 50px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 150px;
+    }
+
+    .profileContent {
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .dropdown_aantal {
+        display: inline-block;
+        padding: 15px;
+        max-width: 200px;
+        font-size: 17px;
+    }
+
+    .profiles {
+        width: 80%;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 150px;
+    }
+
+    .profile_name {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .profile_img {
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile_content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .profile_header {
+        width: 100%;
+        font-size: 22px;
+
+    }
+
+    .profile_body {
+        flex: 1;
+        width: 100%;
+        max-height: 15ch;
+        overflow: hidden;
+        font-size: 18px;
+    }
+
+    .profile_footer {
+        width: 100%;
+    }
+
+    .button {
+        margin-top: 10px;
+        margin-left: 300px;
+        text-align: center;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 19px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+
+    .button_select {
+        margin-top: 10px;
+        background-color: deepskyblue;
+        color: white;
+        padding: 5px;
+        font-size: 19px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+
+}
+/* Eind Jay - Extra Large Screen */

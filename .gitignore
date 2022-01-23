@@ -1,0 +1,14 @@
+.idea/jsDialects.xml
+.idea/jsLibraryMappings.xml
+.idea/markdown-navigator.xml
+.idea/markdown-navigator
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/encodings.xml
+
+server/config.json
+server/users.json
+server/node_modules/
+.idea

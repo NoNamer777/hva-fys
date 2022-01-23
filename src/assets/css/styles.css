@@ -1,0 +1,756 @@
+/* Mike - Extra Small Screen */
+.reviews .content {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.review_tabs {
+    display: flex;
+    background-color: #d81e05;
+    width: 100%;
+    height: 75px;
+    justify-content: space-evenly;
+}
+
+.review_create, .review_site, .review_trip {
+    /* Does actually nothing */
+}
+
+.tab.active {
+    background-color: var(--red);
+    color: #dedede;
+}
+
+.review_create {
+    background-color: white;
+    flex: 1;
+    width: 100%;
+    height: 200px;
+}
+
+.review_site {
+    background-color: white;
+    flex: 1;
+    width: 100%;
+    height: 200px;
+}
+
+.review_trip {
+    background-color: white;
+    flex: 1;
+    width: 100%;
+    height: 200px;
+}
+
+.review_create_button {
+    background-color: gray;
+    width: 75px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.review_create_button:hover {
+    background-color: gray;
+    width: 75px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+    color: #d81e05;
+
+}
+
+.review_site_button {
+    background-color: gray;
+    width: 75px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+}
+
+.review_trip_button {
+    background-color: gray;
+    width: 75px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+}
+
+.review_site_button:hover {
+    background-color: gray;
+    width: 75px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+    color: #d81e05;
+}
+
+.review_trip_button:hover {
+    background-color: gray;
+    width: 75px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+    color: #d81e05;
+}
+
+.review_picture{
+    width: 50px;
+    height: 50px;
+}
+
+
+.review_content{
+    display: inline-block;
+}
+
+.create_review_title{
+    display: flex;
+}
+
+.create_review_box{
+    display: flex;
+}
+
+/* End Mike - Extra Small Screen*/
+/* Jonathan - Extra Small Screen  */
+/* Jonathan - login layout */
+.login_form {
+    position: relative;
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.login_form input {
+    width: 80%;
+}
+
+.login_form p, .login_form a {
+    font-size: 12px;
+}
+
+.login_form button, .register_buttons button, .password_recovery button, .frontpage_review_header button {
+    background-color: #26a514;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.login_modal .content {
+    border-radius: 12px;
+}
+
+/* Jonathan - registration and recovery layout */
+.register, .password_recovery {
+    line-height: 20px;
+    padding: 10px;
+}
+
+.password_recovery h1 {
+    margin: 10px 10px 10px 0px;
+}
+
+.register input {
+    margin: 0px 0px 10px 0px;
+    min-width: 200px;
+    max-width: 80%;
+}
+
+.password_recovery input {
+    min-width: 200px;
+    width: 40%;
+}
+/* Jonathan - homepage layout  */
+.frontpage_introduction {
+    height: 400px;
+    padding: 15px;
+}
+
+.frontpage_registration_link {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.frontpage_introduction a {
+    background-color: var(--red);
+    color: white;
+    padding: 20px;
+    border-radius: 12px ;
+    box-shadow: black;
+    text-decoration: none;
+}
+
+.frontpage_site_review {
+    padding: 15px;
+    color: var(--red);
+}
+
+.site_reviews {
+    display: flex;
+    color: black;
+}
+
+.site_review {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.review_head {
+    height: 15px;
+}
+
+.review_body {
+    flex: 1;
+}
+
+.review_footer {
+    height: 15px;
+}
+
+.frontpage_travel_review {
+    padding: 15px;
+    color: var(--red);
+}
+
+.travel_reviews {
+    display: flex;
+    color: black;
+}
+
+.travel_review {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+/* End Jonathan - Extra Small Screen */
+/* Jay - Extra Small Screen */
+
+.profileOverview {
+    margin: 20px;
+}
+
+.filter_container {
+    width: 35%;
+    font-size: 8px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    display: none;
+    border: 1px solid black;
+}
+
+.filter_content {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.hobby {
+    margin: 15px;
+}
+
+.age {
+    margin: 15px;
+}
+
+.destination {
+    margin: 15px;
+}
+
+.gender {
+    margin: 15px;
+}
+
+.buttons {
+    justify-content: center;
+    display: flex;
+}
+
+.fcBtn {
+    width: 55px;
+}
+
+.filterContent_btn {
+    background-color: deepskyblue;
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+    border: none;
+    width: 55px;
+    height: 20px;
+    display: flex;
+}
+
+.dropdown_aantal {
+    padding: 15px;
+    display: flex;
+    font-size: 8px;
+}
+
+.profile_picture {
+    object-fit: cover;
+    height: 100%;
+    width: 55px;
+}
+
+.stock_photo {
+    height: 200px;
+    width:200px;
+}
+
+.profileContent {
+    width: 100%
+}
+
+.filter_head {
+    width: 100%;
+    color: black;
+    text-align: right;
+}
+
+.profiles {
+    width: 100%
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 55px;
+}
+
+.profile_name {
+    margin: 0;
+    display: inline-block;
+}
+
+.profile_img {
+    height: 100%;
+    width: 55px;
+}
+
+.profile_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.profile_header {
+    width: 100%;
+    font-size: 7px;
+}
+
+.profile_body {
+    font-size: 7px;
+    flex: 1;
+    height: 30px;
+    width: 100%;
+}
+
+.profile_footer {
+    width: 100%;
+    font-size: 7px;
+}
+
+#map {
+    height: 700px;
+    width: 100%
+}
+/* End Jay - Extra Small Screen */
+/* Oscar - Extra Small Screen */
+/* Eind Oscar - Extra Small Screen */
+
+
+@media (min-width: 576px) {
+    /* Mike - Small Screen */
+    /* Eind Mike - Small Screen */
+    /* Jonathan - Small Screen */
+    /* Eind Jonathan - Small Screen */
+    /* Jay - Small Screen */
+    .profile_img {
+        height: 100%;
+        width: 100px;
+    }
+
+    .filter_container {
+        width: 30%;
+        font-size: 13px;
+    }
+
+    .filterTitle {
+        font-size: 15px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 100px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 100px;
+    }
+
+    .profile_body {
+        font-size: 10px;
+        flex: 1;
+        height: 55px;
+        width: 100%;
+    }
+
+    .profile_name {
+        font-size: 13px;
+    }
+
+    .favorite_btn {
+        font-size: 12px;
+    }
+
+    .profile_footer {
+        font-size: 11px;
+    }
+    /* Eind Jay - Small Screen */
+    /* Oscar - Small Screen */
+    /* Eind Oscar - Small Screen */
+}
+
+@media (min-width: 768px) {
+    /* Mike - Medium Screen */
+    .reviews{
+        flex: none;
+    }
+    .reviews .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .review_tabs {
+        display: none;
+    }
+
+    .review_create, .review_site, .review_trip {
+        display: flex;
+    }
+
+    .review_create {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+
+    .review_site, .review_trip {
+        flex-basis: 45%;
+        margin-top: 10px;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .review_site{
+        margin-right: 5px;
+    }
+
+    .review_trip {
+        margin-left: 5px;
+    }
+    .review_picture{
+        height: 50px;
+        width: 50px;
+    }
+    .create_review_box{
+        margin: auto;
+        display: flex;
+    }
+
+    .create_review_title{
+        margin: auto;
+        display: flex;
+    }
+
+    .review_content{
+        margin: auto;
+        display: inline-block;
+    }
+
+    .review{
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    /* Eind Mike - Medium Screen */
+    /* Jonathan - Medium Screen */
+    /* Eind Jonathan - Medium Screen */
+    /* Jay - Medium Screen */
+    .filter_container {
+        width: 30%;
+        font-size: 17px;
+        border: 0px solid white;
+    }
+
+    .filter_head {
+        display: none
+    }
+
+    .dropdown_aantal {
+        display: inline-block;
+        padding: 15px;
+        max-width: 200px;
+        font-size: 12px;
+    }
+
+    .filter_container {
+        display: inline;
+        width: 30%;
+        background-color: transparent;
+    }
+
+    .filterContent_btn {
+        display: none;
+    }
+
+    .filterTitle {
+        font-size: 20px;
+    }
+
+    .profiles {
+        width: 70%;
+        margin-left: 215px;
+    }
+
+    .profile_img {
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 150px;
+    }
+
+    .profile_body {
+        font-size: 15px;
+        flex: 1;
+        height: 60px;
+        width: 100%;
+    }
+
+    .profile_name {
+        font-size: 17px;
+    }
+
+    .favorite_btn {
+        font-size: 14px;
+    }
+
+    .profile_footer {
+        font-size: 17px;
+    }
+
+    /* Eind Jay - Medium Screen */
+    /* Oscar - Medium Screen */
+    /* Eind Oscar - Medium Screen */
+
+}
+
+@media (min-width: 992px) {
+    /* Mike - Large Screen */
+    /* Eind Mike - Large Screen */
+    /* Jonathan - Large Screen */
+    /* Eind Jonathan - Large Screen */
+    /* Jay - Large Screen */
+    .filter_container {
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .filterTitle {
+        font-size: 23px;
+    }
+
+    .profile_img {
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 150px;
+    }
+
+    .dropdown_aantal {
+        display: inline-block;
+        padding: 15px;
+        max-width: 200px;
+        font-size: 15px;
+    }
+
+    .aantal {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 25px;
+        font-size: 20px;
+    }
+
+    .aantal a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 150px;
+    }
+
+    .profile_body {
+        font-size: 20px;
+        flex: 1;
+        height: 60px;
+        width: 100%;
+    }
+
+    .profile_name {
+        font-size: 22px;
+    }
+
+    .favorite_btn {
+        font-size: 17px;
+    }
+
+    .profile_footer {
+        font-size: 20px;
+    }
+
+    /* Eind Jay - Large Screen */
+    /* Oscar - Large Screen */
+    /* Eind Oscar - Large Screen */
+}
+
+@media (min-width: 1200px) {
+    /* Mike - Extra Large Screen */
+    /* Eind Mike - Extra Large Screen */
+    /* Jonathan - Extra Large Screen */
+    /* Eind Jonathan - Extra Large Screen */
+    /* Jay - Extra Large Screen */
+    .filter_container {
+        width: 30%;
+    }
+
+    .toepassen {
+        background-color: deepskyblue;
+        color: white;
+        padding: 10px;
+        font-size: 10px;
+        border: none;
+    }
+
+    .filterContent_btn {
+        background-color: deepskyblue;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+        border: none;
+        width: 100px;
+        height: 50px;
+    }
+
+    .profile_picture {
+        object-fit: cover;
+        height: 100%;
+        width: 150px;
+    }
+
+    .profileContent {
+        width: 70%;
+    }
+
+    .dropdown_aantal {
+        display: inline-block;
+        padding: 15px;
+        max-width: 200px;
+        font-size: 17px;
+    }
+
+    .profiles {
+        width: 100%
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        height: 150px;
+    }
+
+    .profile_name {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .profile_img {
+        height: 100%;
+        width: 150px;
+    }
+
+    .profile_content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .profile_header {
+        width: 100%;
+    }
+
+    .profile_body {
+        flex: 1;
+        width: 100%;
+    }
+
+    .profile_footer {
+        width: 100%;
+    }
+
+    #map {
+        height: 700px;
+        width: 100%
+    }
+
+    /* Eind Jay - Extra Large Screen */
+    /* Oscar - Extra Large Screen */
+    /* Eind Oscar - Extra Large Screen */
+}

@@ -1,0 +1,40 @@
+<div class="content flex_col users">
+    <div class="alert">
+        <p></p>
+        <button class="close" onclick='$(".alert").removeClass("show")'>
+            <i class="fas fa-times fa-lg"></i>
+        </button>
+    </div>
+    <div class="users_editor">
+        <div class="editor_header">
+            <div class="search">
+                <input type="text" placeholder="Zoek op gebruikersnaam, naam en email">
+                <button>Verwijderen</button>
+            </div>
+            <div class="rows_per_page">
+                <label for="rowsPerPage">Rijen per pagina</label>
+                <select name="rowsPerPage" id="rowsPerPage">
+                    <option value="5" selected>5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select>
+            </div>
+        </div>
+        <table id="users">
+            <thead>
+            <tr>
+                <td>#</td>
+                <td>Gebruikersnaam</td>
+                <td>Naam</td>
+                <td>Email</td>
+                <td></td>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="editor_footer">
+            <ul class="pagination_bar"></ul>
+        </div>
+    </div>
+</div>

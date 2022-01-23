@@ -1,0 +1,286 @@
+<div class="content flex_col user_settings_main">
+    <div class="settingsItem">
+        <h3>Email:</h3>
+        <p class="translate" data-lang="uSEmailInstr">
+            Hier kunt u uw emailadres wijzigen.
+            <br> LET OP: Als u uw emailadres wijzigt moet u die ook weer opnieuw verifieren!
+        </p>
+        <input id="newEmail" type="email" placeholder="example@server.nl">
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSPasswordHD">Wachtwoord:</h3>
+        <p class="translate" data-lang="uSPasswordInstr">
+            Als u uw wachtwoord wilt veranderen kun u dat hier doen. <br>LET OP: probeer niet hetzelfde wachtwoord
+            te kiezen voor al uw accounts en zorg ervoor dat uw wachtwoord minimaal uit 8 karakters bestaat,
+            <br>cijfers tussen 0-9 bevat, 1 speciale teken bevat, en één hoofdletter en één normale letter bevat.
+        </p>
+        <img id="passwordStrength" src="assets/img/weak_password.png" alt="password_strength"
+             style="width: 16px; height:16px;">
+        <img id="passwordStrengthScale" src="assets/img/password_strength_scale.png" alt="password_strength_scale">
+        <div class="flex-container">
+            <div>
+                <input title="nieuw wachtwoord" id="newPassword" type="password">
+            </div>
+            <div>
+                <p id="passwordWarning"></p>
+            </div>
+        </div>
+    </div>
+    <div class="settingsItem">
+        <h4 class="translate" data-lang="uSConfirmPasswordHD">Bevestig wachtwoord:</h4>
+        <p class="translate" data-lang="uSPasswordConfirmInstr">
+            Voer hier nogmaals uw nieuwe wachtwoord in om uw nieuwe wachtwoord te bevestigen.
+        </p>
+        <div class="flex-container">
+            <div>
+                <input title="Bevestig nieuw wachtwoord" id="confirmNewPassword" type="password">
+            </div>
+            <div>
+                <p class="passwordWarning"></p>
+            </div>
+        </div>
+    </div>
+    <div class="settingsItem">
+        <h3>Naam: </h3>
+        <p>Als u eerder een tussenvoegsel heeft opgegeven maar door een wijziging in uw naar die tussenvoegsel vervalt,
+            kunt u een "-" opgeven bij tussenvoegsel en dan word de wijziging ook doorgevoerd in uw gegevens.</p>
+        <div class="flex-container">
+            <div>
+                <h4  class="translate" data-lang="uSFNameHD">Voornaam:</h4>
+                <input title="Voornaam" id="firstName" type="text">
+            </div>
+            <div class="prefix">
+                <h4 class="translate" data-lang="uSPNameHD">Tussenvoegsel:</h4>
+                    <input title="Tussenvoegsel" id="lastNamePrefix" type="text">
+            </div>
+            <div>
+                <h4 class="translate" data-lang="uSLNameHD">Achternaam:</h4>
+                    <input title="Achternaam" id="lastName" type="text">
+            </div>
+        </div>
+        <p>
+            <span class="translate" data-lang="uSNameVisInstr">Wilt u dat mensen uw naam kunnen zien op uw profiel?</span>
+            <input title="Zichtbaarheid naam" id="visibilityName" type="checkbox">
+        </p>
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSCityHD">Woonplaats:</h3>
+        <p class="translate" data-lang="uSCityInstr">
+            Voer hier in hoe de stad of het dorp heet waar u vandaan komt.
+        </p>
+        <input title="Woonplaats invoer" id="cityInput" type="text">
+        <p>
+            <span class="translate" data-lang="uSCityVisInstr">Wilt u dat mensen uw woonplaats kunnen zien op uw profiel?</span>
+            <input title="Zichtbaarheid woonplaats" id="visibilityCity" type="checkbox">
+        </p>
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSCountryHD">land:</h3>
+        <p class="translate" data-lang="uSCountryInstr">
+            Selecteer hier het land waar u woont.
+        </p>
+        <div class="flex-container">
+            <div>
+                <select id="countryInput" title="Land van herkomst">
+                    <option class="translate" data-lang="default" value="default" selected>Kies een land</option>
+                    <option class="translate" data-lang="Aruba" value="Aruba">Aruba</option>
+                    <option class="translate" data-lang="Bali" value="Bali">Bali</option>
+                    <option class="translate" data-lang="Belgie" value="Belgie">Belgie</option>
+                    <option class="translate" data-lang="Bonaire" value="Bonaire">Bonaire</option>
+                    <option class="translate" data-lang="Bulgarije" value="Bulgarije">Bulgarije</option>
+                    <option class="translate" data-lang="Curaçao" value="Curaçao">Curaçao</option>
+                    <option class="translate" data-lang="Cyprus" value="Cyprus">Cyprus</option>
+                    <option class="translate" data-lang="Dubai" value="Dubai">Dubai</option>
+                    <option class="translate" data-lang="Duitsland" value="Duitsland">Duitsland</option>
+                    <option class="translate" data-lang="Egypte" value="Egypte">Egypte</option>
+                    <option class="translate" data-lang="Gambia" value="Gambia">Gambia</option>
+                    <option class="translate" data-lang="Griekenland" value="Griekenland">Griekenland</option>
+                    <option class="translate" data-lang="Indonesië" value="Indonesië">Indonesië</option>
+                    <option class="translate" data-lang="Italië" value="Italië">Italië</option>
+                    <option class="translate" data-lang="Istanbul" value="Istanbul">Cyprus</option>
+                    <option class="translate" data-lang="Macedonië" value="Macedonië">Macedonië</option>
+                    <option class="translate" data-lang="Marokko" value="Marokko">Marokko</option>
+                    <option class="translate" data-lang="Nederland" value="Nederland">Nederland</option>
+                    <option class="translate" data-lang="Portugal" value="Portugal">Portugal</option>
+                    <option class="translate" data-lang="Spanje" value="Spanje">Spanje</option>
+                    <option class="translate" data-lang="Thailand" value="Thailand">Thailand</option>
+                    <option class="translate" data-lang="Tunesië" value="Tunesië">Tunesië</option>
+                    <option class="translate" data-lang="Turkije" value="Turkije">Turkije</option>
+                    <option class="translate" data-lang="VerArabischeEmiraten" value="Ver. Arabische Emiraten">Ver. Arabische Emiraten</option>
+                    <option class="translate" data-lang="Zwitserland" value="Zwitserland">Zwitserland</option>
+                </select>
+            </div>
+            <div id="knownCountry"></div>
+        </div>
+        <p>
+            <span class="translate" data-lang="uSCountryVisInstr">Wilt u dat mensen op uw profiel kunnen zien in welk land u woont?</span>
+            <input title="Zichtbaarheid land van herkomst" id="visibilityCountry" type="checkbox">
+        </p>
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSDoBHD">Geboortedatum:</h3>
+        <p class="translate" data-lang="uSDoBInstr">
+            Geef hier uw geboortedatum op.
+        </p>
+        <div class="flex-container">
+            <div>
+                <input title="Geboortedatum invoer" type="date" id="dOBInput">
+            </div>
+            <div class="knownDOB"></div>
+        </div>
+        <p>
+            <span class="translate" data-lang="uSAgeVisInstr">Wilt u dat mensen op uw profiel kunnen zien hoe oud u bent?</span>
+            <input title="Zichtbaarheid leeftijd" id="visibilityAge" type="checkbox">
+        </p>
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSGenderHD">Geslacht:</h3>
+        <p class="translate" data-lang="uSGenderInstr">
+            Selecteer hier uw geslacht.
+        </p>
+        <input name="gender" title="Man" type="radio" id="male" value="male">
+        <span class="translate" data-lang="genderM">Man</span><br>
+        <input name="gender" title="Vrouw" type="radio" id="female" value="female">
+        <span class="translate" data-lang="genderV">Vrouw</span><br>
+        <input name="gender" title="Anders" type="radio" id="other" value="other">
+        <span class="translate" data-lang="genderD">Anders</span><br>
+        <p>
+            <span class="translate" data-lang="uSGenderVisInstr">Wilt u dat mensen uw geslacht kunnen zien op uw profiel?</span>
+            <input title="Zichtbaarheid geslacht" id="visibilityGender" type="checkbox">
+        </p>
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSPPictureHD">Profielfoto:</h3>
+        <div class="flex-container">
+            <div>
+                <img src="" id="currentProfilePicture" alt="Current_Profile_Picture"
+                      style="width: 100px; height: 100px;"></div>
+            <div>
+                <p class="translate" data-lang="uSPictureInstr"> Klik hieronder om uw profielfoto te wijzigen.<br></p>
+                <input type="file" id="profilePictureInput">
+                <p>
+                    <span class="translate" data-lang="USPictureVisInstr">Wilt u dat mensen uw profielfoto kunnen zien op uw profiel?</span>
+                    <input title="Zichtbaarheid profielfoto" id="visibilityProfilePicture" type="checkbox">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSHobbiesHD">Hobby's:</h3>
+        <p class="translate" data-lang="uSHobbiesInstr">
+            Hieronder kunt u eventueel uw hobby's selecteren en / of aanpassen. Selecteer een hobby die u wilt
+            in de linker lijst, <br>of voer zelf iets in als het niet in de lijst staat, en klik op het plusje om
+            het aan uw lijst met hobby's toe te voegen aan de rechterkant. <br>
+            <br>Wilt u een hobby uit uw lijst halen? Dat gaat net zo simpel: selecteer de hobby die u niet meer wilt
+            in de lijst aan de rechterkant, <br>en klik op het minnetje om de hobby uit uw lijst te halen.
+            <br>Hobby's die u verwijderd uit uw lijst kunt u altijd weer toevoegen op een later moment.
+        </p>
+        <div class="flex-container">
+            <div class="uSAvailableHobbies">
+                <span class="translate" data-lang="uSAvailableHobbies">Beschikbare hobby's</span>
+            </div>
+            <div class="translate" data-lang="uSChosenHobbies" style="margin-left: 60px">
+                Uw hobby's
+            </div>
+        </div>
+        <div class="flex-container">
+            <div>
+                <div>
+                    <select title="Beschikbare hobby's" id="availableHobbies" size="7">
+                        <!--will be filled with data from the database-->
+                    </select>
+                </div>
+            </div>
+            <div style="margin: 8px">
+                <input type="button" value="Add Hobby" id="addHobbyFromList"><br><br><br>
+                <input type="button" value="Remove Hobby" id="removeHobby">
+            </div>
+            <div id="displayChosenHobbiesBorder">
+                <p id="displayChosenHobbies" class="translate" data-lang="uSChosenHobbiesInstr">
+                    Uw gekozen hobby's komen hier te staan.</p>
+            </div>
+            <div>
+                <p id="userSettingsHobbyWarning"></p>
+            </div>
+        </div>
+        <div>
+            <span class="translate" data-lang="uSCustomHobbies">Eigen invoer: </span><br>
+            <input title="Aangepaste hobby invoer" id="customHobbyInput" type="text">
+            <input type="button" value="Add Hobby" id="addCustomHobby">
+        </div>
+        <p>
+            <span class="translate" data-lang="uSHobbiesVisInstr">Wilt u dat mensen uw hobby's kunnen zien op uw profiel?</span>
+            <input title="Zichtbaarheid hobby's" id="visibilityHobbies" type="checkbox">
+        </p>
+    </div>
+    <div class="settingsItem">
+        <h3 class="translate" data-lang="uSBioHD">Biografie:</h3>
+        <p class="translate" data-lang="uSBioInstr">
+            Voer hieronder iets in om wat neer te zetten in uw bio. Vertel wat over uzelf, hoe u bent als
+            persoon. <br>Probeer minimaal 200 tekens te hebben in uw Bio.
+        </p>
+        <textarea class="Us" id="bioInput" placeholder="Schrijf uw bio hier..."></textarea>
+        <p>
+            <span class="translate" data-lang="uSBioVisInstr">Wilt u dat mensen uw Bio kunnen zien op uw profiel?</span>
+            <input title="Zichtbaarheid biografie" id="visibilityBiography" type="checkbox">
+        </p>
+    </div>
+    <div class="settingsItem">
+    <h3 class="translate" data-lang="uSVacationDesHD">Vakantie Bestemming:</h3>
+    <p class="translate" data-lang="uSVacationDesInstr">
+        Voer hieronder uw vakantie bestemming in zodat mensen weten waar u naar op vakantie gaat, als u op vakantie gaat.<br>
+        Als niet meer op vakantie gaat voert u een "-" in om de wijziging door te voeren.
+    </p>
+        <select title="Vakantie bestemming invoer" id="vacationDesInput">
+            <!--Will be filled with the data from the database!-->
+        </select>
+    <p>
+        <span class="translate" data-lang="uSVacationDesVisInstr">Wilt u dat mensen kunnen zien waar u opm vakantie gaat?</span>
+        <input title="Zichtbaarheid vakantie bestemming" id="visibilityVacationDes" type="checkbox">
+    </p>
+</div>
+    <div class="settingsItem">
+        <h3><span class="translate" data-lang="uSProfileOverview">Voorbeeld profiel overzicht:</span></h3>
+    </div>
+    <div class="settingsPreviewProfile">
+        <div class="flex-containerProfilePreview">
+            <div class="settingsPreviewSpacer">
+                <img id="profilePictureOutput" alt="Profile picture" src=""
+                     style="width: 100px; height: 100px;">
+            </div>
+            <div class="settingsPreviewSpacer">
+                <h3 class="translate" data-lang="nameHD"></h3><div id="nameOutput"></div>
+                <h3 class="translate" data-lang="cityHD"></h3><div id="cityOutput"></div>
+            </div>
+            <div class="settingsPreviewSpacer">
+                <h3 class="translate" data-lang="ageHD"></h3><div id="ageOutput"></div>
+                <h3 class="translate" data-lang="countryHD"></h3><div id="countryOutput"></div>
+            </div>
+            <div class="settingsPreviewSpacer">
+                <h3 class="translate" data-lang="genderHD"></h3><div id="genderOutput"></div>
+                <h3 class="translate" data-lang="hobbiesHD"></h3><div id="hobbiesOutput"></div>
+            </div>
+        </div>
+        <div class="flex-containerProfilePreview">
+            <div class="settingsPreviewSpacer-alt"><h3 class="translate" data-lang="bioHD"></h3></div>
+            <div><h3 class="translate" data-lang="VacationDesHD"></h3></div>
+            <div id="vacationDesOutput" style="margin-top: 3px; margin-left: 2px;"> Vakantie bestemming niet tonen</div>
+        </div>
+        <div id="bioOutput"></div>
+    </div>
+    <div class="flex-container" style="margin: 10px 10% 0 0">
+        <div>
+            <form>
+                <input type="button" id="saveSettings" value="Save changes">
+            </form>
+        </div>
+        <div class="settingsSpacer">
+            <p id="savedChanges"><b><span class="translate" data-lang="uSSavedChanges">Wijzigingen opgeslagen!</span></b></p>
+        </div>
+        <div>
+            <form>
+                <input type="button" id="deleteAccount" value="Delete account">
+            </form>
+        </div>
+    </div>
+</div>
